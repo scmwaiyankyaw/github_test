@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Tags</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#link1">Link 1</a></li>
+            <li><a data-toggle="tab" href="#link2">Link 2</a></li>
+            <li><a data-toggle="tab" href="#link3">Link 3</a></li>
+            <li><a data-toggle="tab" href="#link4">Link 4</a></li>
+        </ul>
+
+        <div class="tab-content">
+            <div id="link1" class="tag-pane fade in active"><h3>Link1</h3>Content</div>
+            <div id="link2" class="tag-pane fade"><h3>Link2</h3>Content</div>
+            <div id="link3" class="tag-pane fade"><h3>Link3</h3>Content</div>
+            <div id="link4" class="tag-pane fade"><h3>Link4</h3>Content</div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>
